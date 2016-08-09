@@ -1,0 +1,35 @@
+{
+  "intents": [
+    
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AmenIntent", 
+      "slots": [
+        {
+          "name": "Utterances",
+          "type": "LIST_OF_AMEN_UTTERANCES"
+        }
+      ]
+    },
+    {
+	    "intent": "HandleGloriousMysteries"
+    },
+    {
+	    "intent": "HandleJoyfulMysteries"
+    },
+    {
+      	"intent": "HandleLuminousMysteries"
+    },
+    {
+	    "intent": "HandleSorrowfulMysteries"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+AmenIntent {Utterances}
+
+HandleGloriousMysteries pray glorious mysteries
+HandleGloriousMysteries say glorious mysteries
+HandleGloriousMysteries pray the glorious mysteries
+HandleGloriousMysteries say the glorious mysteries
+HandleGloriousMysteries pray glorious mystery
+HandleGloriousMysteries say glorious mystery
+HandleGloriousMysteries start glorious mystery
+HandleGloriousMysteries glorious mysteries
+HandleGloriousMysteries start glorious mysteries
+HandleGloriousMysteries start the glorious mysteries
+HandleGloriousMysteries glorious mystery
+
+HandleJoyfulMysteries pray joyful mysteries
+HandleJoyfulMysteries say joyful mysteries
+HandleJoyfulMysteries pray the joyful mysteries
+HandleJoyfulMysteries say the joyful mysteries
+HandleJoyfulMysteries pray joyful mystery
+HandleJoyfulMysteries say joyful mystery
+HandleJoyfulMysteries start joyful mysteries
+HandleJoyfulMysteries start joyful mystery
+HandleJoyfulMysteries start the joyful mysteries
+HandleJoyfulMysteries joyful mystery
+HandleJoyfulMysteries joyful mysteries
+
+HandleLuminousMysteries pray luminous mysteries
+HandleLuminousMysteries say luminous myesteries
+HandleLuminousMysteries pray the luminous mysteries
+HandleLuminousMysteries say the luminous mysteries
+HandleLuminousMysteries pray luminous mystery
+HandleLuminousMysteries	say luminous mystery
+HandleLuminousMysteries start luminous mysteries
+HandleLuminousMysteries start luminous mystery
+HandleLuminousMysteries start the luminous mysteries
+HandleLuminousMysteries start the luminous mystery
+HandleLuminousMysteries luminous mysteries
+HandleLuminousMysteries luminous mystery
+
+HandleSorrowfulMysteries pray sorrowful mysteries
+HandleSorrowfulMysteries say sorrowful mysteries
+HandleSorrowfulMysteries pray the sorrowful mysteries
+HandleSorrowfulMysteries say the sorrowful mysteries
+HandleSorrowfulMysteries pray sorrowful mystery
+HandleSorrowfulMysteries say sorrowful mystery
+HandleSorrowfulMysteries start sorrowful mysteries
+HandleSorrowfulMysteries start sorrowful mystery
+HandleSorrowfulMysteries start the sorrowful mysteries
+HandleSorrowfulMysteries start the sorrowful mystery
+HandleSorrowfulMysteries sorrowful mysteries
+HandleSorrowfulMysteries sorrowful mystery
