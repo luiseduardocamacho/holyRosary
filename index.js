@@ -276,7 +276,7 @@ HolyRosary.prototype.intentHandlers = {
 function handleGloriousMysteryIntent(intent, session, response) {
 console.log("The mystery attribute is: " + session.attributes.mystery + "The prayer count attribute is: " + session.attributes.prayercount);
     
-    var repromptText = "";
+    var repromptText =  "To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
     var speechText = "";
     var utterance = "";
     var user_utterance = "";
@@ -666,15 +666,15 @@ console.log("The mystery attribute is: " + session.attributes.mystery + "The pra
 	}	
 	else
 	{
-		var repromptText = "I didn't understand what you just said. To continue praying the mystery say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now what would you like to do?";
-    	var speechText = "I didn't understand what you just said. To continue praying the mystery say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now what would you like to do? ";
+		var repromptText =  "To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
+    	var speechText = "I didn't understand what you just said. To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
 	}
     var speechOutput = {
             speech: speechText,
             type: AlexaSkill.speechOutputType.SSML
         };
     var repromptOutput = {
-            speech: speechText,
+            speech: repromptText,
             type: AlexaSkill.speechOutputType.SSML
         };
         // For the repromptText, play the speechOutput again
@@ -696,7 +696,7 @@ console.log("The mystery attribute is: " + session.attributes.mystery + "The pra
 function handleJoyfulMysteryIntent(intent, session, response) {
 console.log("The mystery attribute is: " + session.attributes.mystery + "The prayer count attribute is: " + session.attributes.prayercount);
     
-    var repromptText = "";
+    var repromptText =  "To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
     var speechText = "";
     var utterance = "";
     var user_utterance = "";
@@ -1086,15 +1086,15 @@ console.log("The mystery attribute is: " + session.attributes.mystery + "The pra
 	}	
 	else
 	{
-		var repromptText = "I didn't understand what you just said. To continue praying the mystery say Amen. To pray different mystery please say stop and then say the mystery you would like me to pray. Now what would you like to do?";
-    	var speechText = "I didn't understand what you just said. To continue praying the mystery say Amen. To pray different mystery please say stop and then say the mystery you would like me to pray. Now what would you like to do? ";
+		var repromptText =  "To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
+        var speechText = "I didn't understand what you just said. To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
 	}
     var speechOutput = {
             speech: speechText,
             type: AlexaSkill.speechOutputType.SSML
         };
     var repromptOutput = {
-            speech: speechText,
+            speech: repromptText,
             type: AlexaSkill.speechOutputType.SSML
         };
         // For the repromptText, play the speechOutput again
@@ -1117,7 +1117,7 @@ console.log("The mystery attribute is: " + session.attributes.mystery + "The pra
 function handleLuminousMysteryIntent(intent, session, response) {
 console.log("The mystery attribute is: " + session.attributes.mystery + "The prayer count attribute is: " + session.attributes.prayercount);
     
-    var repromptText = "";
+    var repromptText = "To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
     var speechText = "";
     var utterance = "";
     var user_utterance = "";
@@ -1507,15 +1507,15 @@ console.log("The mystery attribute is: " + session.attributes.mystery + "The pra
 	}	
 	else
 	{
-		var repromptText = "I didn't understand what you just said. To continue praying the mystery say Amen. To pray different mystery please say stop and then say the mystery you would like me to pray. Now what would you like to do?";
-    	var speechText = "I didn't understand what you just said. To continue praying the mystery say Amen. To pray different mystery please say stop and then say the mystery you would like me to pray. Now what would you like to do? ";
+		var repromptText =  "To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
+        var speechText = "I didn't understand what you just said. To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
 	}
     var speechOutput = {
             speech: speechText,
             type: AlexaSkill.speechOutputType.SSML
         };
     var repromptOutput = {
-            speech: speechText,
+            speech: repromptText,
             type: AlexaSkill.speechOutputType.SSML
         };
         // For the repromptText, play the speechOutput again
@@ -1541,7 +1541,7 @@ console.log("The mystery attribute is: " + session.attributes.mystery + "The pra
 function handleSorrowfulMysteryIntent(intent, session, response) {
 console.log("The mystery attribute is: " + session.attributes.mystery + "The prayer count attribute is: " + session.attributes.prayercount);
     
-    var repromptText = "";
+    var repromptText = "To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
     var speechText = "";
     var utterance = "";
     var user_utterance = "";
@@ -1931,15 +1931,15 @@ console.log("The mystery attribute is: " + session.attributes.mystery + "The pra
 	}	
 	else
 	{
-		var repromptText = "I didn't understand what you just said. To continue praying the mystery say Amen. To pray different mystery please say stop and then say the mystery you would like me to pray. Now what would you like to do?";
-    	var speechText = "I didn't understand what you just said. To continue praying the mystery say Amen. To pray different mystery please say stop and then say the mystery you would like me to pray. Now what would you like to do? ";
+		var repromptText =  "To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
+        var speechText = "I didn't understand what you just said. To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
 	}
     var speechOutput = {
             speech: speechText,
             type: AlexaSkill.speechOutputType.SSML
         };
     var repromptOutput = {
-            speech: speechText,
+            speech: repromptText,
             type: AlexaSkill.speechOutputType.SSML
         };
         // For the repromptText, play the speechOutput again
