@@ -179,7 +179,7 @@ HolyRosary.prototype.eventHandlers.onSessionStarted = function (sessionStartedRe
 };
 
 HolyRosary.prototype.eventHandlers.onLaunch = function (launchRequest, session, response) {
-    var speechText = "Welcome to the Holy Rosary, say the name of the mystery you would like me to pray";
+    var speechText = "Welcome to the Holy Rosary, say the name of the mystery you would like me to pray. You can say. Pray the Joyful mysteries. Or Pray the Sorrowful mysteries. Or Pray the Luminous mysteries. Or pray the Glorious mysteries";
     // If the user either does not reply to the welcome message or says something that is not
     // understood, they will be prompted again with this text.
     var repromptText = "For instructions on what you can say, please say help me.";
@@ -276,7 +276,7 @@ HolyRosary.prototype.intentHandlers = {
 function handleGloriousMysteryIntent(intent, session, response) {
 console.log("The mystery attribute is: " + session.attributes.mystery + "The prayer count attribute is: " + session.attributes.prayercount);
     
-    var repromptText =  "To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
+    var repromptText = "<speak>" + "To continue praying the mystery please say. Amen. To pray a different mystery, please say stop. and then say the mystery you would like me to pray. Now, say stop, amen, or help" + "</speak>" ;
     var speechText = "";
     var utterance = "";
     var user_utterance = "";
@@ -666,8 +666,8 @@ console.log("The mystery attribute is: " + session.attributes.mystery + "The pra
 	}	
 	else
 	{
-		var repromptText =  "To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
-    	var speechText = "I didn't understand what you just said. To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
+		var repromptText = "<speak>" + "To continue praying the mystery please say. Amen. To pray a different mystery, please say stop. and then say the mystery you would like me to pray. Now, say stop, amen, or help" + "</speak>";
+    	var speechText = "<speak>" + "I didn't understand what you just said. To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help" + "</speak>";
 	}
     var speechOutput = {
             speech: speechText,
@@ -696,7 +696,7 @@ console.log("The mystery attribute is: " + session.attributes.mystery + "The pra
 function handleJoyfulMysteryIntent(intent, session, response) {
 console.log("The mystery attribute is: " + session.attributes.mystery + "The prayer count attribute is: " + session.attributes.prayercount);
     
-    var repromptText =  "To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
+    var repromptText = "<speak>" + "To continue praying the mystery please say. Amen. To pray a different mystery, please say stop. and then say the mystery you would like me to pray. Now, say stop, amen, or help" + "</speak>";
     var speechText = "";
     var utterance = "";
     var user_utterance = "";
@@ -1086,8 +1086,8 @@ console.log("The mystery attribute is: " + session.attributes.mystery + "The pra
 	}	
 	else
 	{
-		var repromptText =  "To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
-        var speechText = "I didn't understand what you just said. To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
+		var repromptText = "<speak>" + "To continue praying the mystery please say. Amen. To pray a different mystery, please say stop. and then say the mystery you would like me to pray. Now, say stop, amen, or help" + "</speak>";
+        var speechText = "<speak>" + "I didn't understand what you just said. To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help" + "</speak>";
 	}
     var speechOutput = {
             speech: speechText,
@@ -1117,7 +1117,7 @@ console.log("The mystery attribute is: " + session.attributes.mystery + "The pra
 function handleLuminousMysteryIntent(intent, session, response) {
 console.log("The mystery attribute is: " + session.attributes.mystery + "The prayer count attribute is: " + session.attributes.prayercount);
     
-    var repromptText = "To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
+    var repromptText = "<speak>" + "To continue praying the mystery please say. Amen. To pray a different mystery, please say stop. and then say the mystery you would like me to pray. Now, say stop, amen, or help" + "</speak>";
     var speechText = "";
     var utterance = "";
     var user_utterance = "";
@@ -1507,8 +1507,8 @@ console.log("The mystery attribute is: " + session.attributes.mystery + "The pra
 	}	
 	else
 	{
-		var repromptText =  "To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
-        var speechText = "I didn't understand what you just said. To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
+		var repromptText = "<speak>" + "To continue praying the mystery please say. Amen. To pray a different mystery, please say stop. and then say the mystery you would like me to pray. Now, say stop, amen, or help" + "</speak>";
+        var speechText = "<speak>" + "I didn't understand what you just said. To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help" + "</speak>";
 	}
     var speechOutput = {
             speech: speechText,
@@ -1541,7 +1541,7 @@ console.log("The mystery attribute is: " + session.attributes.mystery + "The pra
 function handleSorrowfulMysteryIntent(intent, session, response) {
 console.log("The mystery attribute is: " + session.attributes.mystery + "The prayer count attribute is: " + session.attributes.prayercount);
     
-    var repromptText = "To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
+    var repromptText = "<speak>" + "To continue praying the mystery please say. Amen. To pray a different mystery, please say stop. and then say the mystery you would like me to pray. Now, say stop, amen, or help" + "</speak>";
     var speechText = "";
     var utterance = "";
     var user_utterance = "";
@@ -1931,8 +1931,8 @@ console.log("The mystery attribute is: " + session.attributes.mystery + "The pra
 	}	
 	else
 	{
-		var repromptText =  "To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
-        var speechText = "I didn't understand what you just said. To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help";
+		var repromptText = "<speak>" + "To continue praying the mystery please say. Amen. To pray a different mystery, please say stop. and then say the mystery you would like me to pray. Now, say stop, amen, or help" + "</speak>";
+        var speechText = "<speak>" + "I didn't understand what you just said. To continue praying the mystery please say Amen. To pray a different mystery please say stop and then say the mystery you would like me to pray. Now say stop, amen, or help" + "</speak>";
 	}
     var speechOutput = {
             speech: speechText,
